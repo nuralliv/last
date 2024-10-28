@@ -213,7 +213,11 @@
 		color: var(--main-color);
 
 	}
-
+	.all-about{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
 	.center p {
 		font-size: var(--p-font);
 		padding: 0 120px;
@@ -227,7 +231,7 @@
 		align-items: center;
 		text-align: center;
 		gap: 2rem;
-		margin-top: 4rem;
+		margin-top: 2rem;
 	}
 
 
